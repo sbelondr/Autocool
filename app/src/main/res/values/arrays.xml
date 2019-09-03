@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "array_formule">
+        <item>Classique</item>
+        <item>Coopérative</item>
+        <item>Liberté</item>
+    </string-array>
+
+
+    <string-array name = "array_HKM">
+        <item>Horaires</item>
+        <item>Kilométriques</item>
+    </string-array>
+
+    <string-array name = "array_categ">
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+    </string-array>
+
+
+</resources>

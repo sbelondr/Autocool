@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tarifs.liste_tarifs">
+
+    <TextView
+        android:id="@+id/txtKMLS"
+        android:layout_width="69dp"
+        android:layout_height="21dp"
+        android:text="@string/zero"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/txtKMLJ"
+        app:layout_constraintTop_toBottomOf="@+id/txtKMMS" />
+
+    <TextView
+        android:id="@+id/txtKMLJ"
+        android:layout_width="69dp"
+        android:layout_height="21dp"
+        android:text="@string/zero"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/txtKMLH"
+        app:layout_constraintTop_toBottomOf="@+id/txtKMMJ" />
+
+    <TextView
+        android:id="@+id/txtKMLH"
+        android:layout_width="69dp"
+        android:layout_height="21dp"
+        android:text="@string/zero"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/textView30"
+        app:layout_constraintTop_toBottomOf="@+id/txtKMMH" />
+
+    <TextView
+        android:id="@+id/txtKMMS"
+        android:layout_width="69dp"
+        android:layout_height="21dp"
+        android:text="@string/zero"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/txtKMMJ"
+        app:layout_constraintTop_toBottomOf="@+id/txtKMSS" />
+
+    <TextView
+        android:id="@+id/txtKMMJ"
+        android:layout_width="69dp"
+        android:layout_height="21dp"
+        android:text="@string/zero"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/txtKMMH"
+        app:layout_constraintTop_toBottomOf="@+id/txtKMSJ" />
+
+    <TextView
+        android:id="@+id/txtKMMH"
+        android:layout_width="69dp"
+        android:layout_height="21dp"
+        android:text="@string/zero"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/textView29"
+        app:layout_constraintTop_toBottomOf="@+id/txtKMSH" />
+
+    <TextView
+        android:id="@+id/txtKMSH"
+        android:layout_width="69dp"
+        android:layout_height="21dp"
+        android:text="@string/zero"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/textView28"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <TextView
+        android:id="@+id/txtKMSJ"
+        android:layout_width="69dp"
+        android:layout_height="21dp"
+        android:text="@string/zero"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/txtKMSH"
+        app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+    <TextView
+        android:id="@+id/txtKMSS"
+        android:layout_width="69dp"
+        android:layout_height="21dp"
+        android:text="@string/zero"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/txtKMSJ"
+        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="69dp"
+        android:layout_height="21dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/L"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView29"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView29"
+        app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="69dp"
+        android:layout_height="21dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/M"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView28"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView28"
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="69dp"
+        android:layout_height="42dp"
+        android:text="7j"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textView26"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:text="Grilles de tarifs"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtFormule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="40dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/txtLS"
+        android:layout_width="69dp"
+        android:layout_height="21dp"
+        android:text="@string/zero"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/txtLJ"
+        app:layout_constraintTop_toBottomOf="@+id/txtMS" />
+
+    <TextView
+        android:id="@+id/txtLJ"
+        android:layout_width="69dp"
+        android:layout_height="21dp"
+        android:text="@string/zero"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/txtLH"
+        app:layout_constraintTop_toBottomOf="@+id/txtMJ" />
+
+    <TextView
+        android:id="@+id/txtLH"
+        android:layout_width="69dp"
+        android:layout_height="21dp"
+        android:text="@string/zero"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/txtMH" />
+
+    <TextView
+        android:id="@+id/txtMS"
+        android:layout_width="69dp"
+        android:layout_height="21dp"
+        android:text="@string/zero"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/txtMJ"
+        app:layout_constraintTop_toBottomOf="@+id/txtSS" />
+
+    <TextView
+        android:id="@+id/txtMJ"
+        android:layout_width="69dp"
+        android:layout_height="21dp"
+        android:text="@string/zero"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/txtMH"
+        app:layout_constraintTop_toBottomOf="@+id/txtSJ" />
+
+    <TextView
+        android:id="@+id/txtMH"
+        android:layout_width="69dp"
+        android:layout_height="21dp"
+        android:text="@string/zero"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/txtSH" />
+
+    <TextView
+        android:id="@+id/txtSH"
+        android:layout_width="69dp"
+        android:layout_height="21dp"
+        android:text="@string/zero"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/txtSJ"
+        android:layout_width="69dp"
+        android:layout_height="21dp"
+        android:text="@string/zero"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/txtSH"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+    <TextView
+        android:id="@+id/txtSS"
+        android:layout_width="69dp"
+        android:layout_height="21dp"
+        android:text="@string/zero"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/txtSJ"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="276dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/tarifsH"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFormule" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="276dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/tarifsKM"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLH" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="69dp"
+        android:layout_height="42dp"
+        android:text="1h"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textView22"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="69dp"
+        android:layout_height="42dp"
+        android:text="1h"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textView21"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="69dp"
+        android:layout_height="42dp"
+        android:text="24h"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="69dp"
+        android:layout_height="42dp"
+        android:text="24h"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textView25"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="69dp"
+        android:layout_height="42dp"
+        android:text="7j"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textView23"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="69dp"
+        android:layout_height="42dp"
+        android:text="@string/categorie"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="69dp"
+        android:layout_height="42dp"
+        android:text="@string/categorie"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="69dp"
+        android:layout_height="21dp"
+        android:text="@string/M"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView11"
+        app:layout_constraintStart_toStartOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="69dp"
+        android:layout_height="21dp"
+        android:text="@string/L"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView10"
+        app:layout_constraintStart_toStartOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="69dp"
+        android:layout_height="21dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/S"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView22"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView22"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="69dp"
+        android:layout_height="21dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/S"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView25"
+        app:layout_constraintStart_toStartOf="@+id/textView21"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+
+</android.support.constraint.ConstraintLayout>
